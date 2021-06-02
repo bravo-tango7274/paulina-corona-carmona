@@ -1,0 +1,272 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+
+.conteneor{
+    padding: 60px;
+    width: 950px;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #6A0C25;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 1000px;
+    height: 900px
+    background: #DDE83A;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    float: right;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+ul li a{
+    display: block;
+    padding: 20px;
+    color: #CC1628;
+    text-decoration: none;
+}
+
+ul li:hover{
+    background:#805881 
+}
+
+nav{
+    background: rgba(0,0,0,0.31);
+    text-align: 0px;
+    padding: 20px;
+}
+
+section.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+textos-header h1{
+    font-size: 50px;
+    color: darkred;
+    justify-content: center;    
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: darkred;
+}
+
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.magen-about-us{
+    width: 48%;
+}
+
+.sobre-nosotros.contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #1CE4BA;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio{
+    background: #E41C1C;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative; 
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+}
+
+.imagen-port img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /*transform: scale(0);*/
+    background: HEX
+    #821B1B 
+    RGB
+    253,232,235;
+    
+    transform: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: darkviolet;
+}
+
+imagen-poet:hover.hover-galeria{
+    transform: scale(0);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards.card{
+    background: #CC5454;
+    display: flex;
+    width: 46%;
+    height: 200;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+}
+
+.cards.card.contenido-textos-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards.card.contenido-tecto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.about-services{
+    background: #054CB0;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer{
+    background: #D45DE2;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: bisque;
+    border-bottom: 3px solid #ED5757;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: darkred;
+}
